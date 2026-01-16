@@ -24,7 +24,6 @@ def planilhas(dicionario_links):
             rotulo_ano = f"20{indicador_ano}-DATA"
             df_planilha.insert(0,"FONTE_DF", rotulo_ano)
 
-            lista_dfs.append(df_planilha)
 
             # Verificação extra: Se baixou HTML por engano, o Pandas vai criar apenas 1 coluna estranha ou falhar
             #se tiver menos que duas colunas avise que pode ser um erro

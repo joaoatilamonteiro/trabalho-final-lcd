@@ -5,19 +5,19 @@ import pandas as pd
 
 inicio = time.time()
 dict_vivos = {
-    "vivos20": "https://docs.google.com/spreadsheets/d/1n5Pw1Yahm1kvRNKXw_cfRdmveP-hTWuJ01pWrJti3oU/gviz/tq?tqx=out:csv&gid=884066373",
-    "vivos21": "https://docs.google.com/spreadsheets/d/1YMKgQkopv1tPtn7xnwVbmkS2grfpI_pXY2md_yfn_FA/gviz/tq?tqx=out:csv&gid=1373927302",
-    "vivos22": "https://docs.google.com/spreadsheets/d/11_E4kRnFBNid55lkbz5aBWnTQywF_aGM8mNcb7L68Vo/gviz/tq?tqx=out:csv&gid=1190011185",
-    "vivos23": "https://docs.google.com/spreadsheets/d/1OTavt2nCziBzDrrcS0kDpGxPmi4F_wwJtrWwvend2-s/gviz/tq?tqx=out:csv&gid=549944355",
-    "vivos24": "https://docs.google.com/spreadsheets/d/1wWPoblBouNx8mpqx3d63FgaF2oPnzJ8_wPqalQVCYtY/gviz/tq?tqx=out:csv&gid=1055378626"
+    "vivos20": "https://dados.fortaleza.ce.gov.br/dataset/af6e1ab3-7978-4c21-9f8f-defea2158cd6/resource/1f513892-839a-4759-8acf-ba5c463caa3b/download/dados-de-nascidos-vivos.csv",
+    "vivos21": "https://dados.fortaleza.ce.gov.br/dataset/af6e1ab3-7978-4c21-9f8f-defea2158cd6/resource/0f683b26-ad45-466f-a4dd-fde1de82e31c/download/dados-de-nascidos-vivos-2021.csv",
+    "vivos22": "https://dados.fortaleza.ce.gov.br/dataset/af6e1ab3-7978-4c21-9f8f-defea2158cd6/resource/18a62112-6375-4397-b906-f45c3420c5d1/download/dados-de-nascidos-vivos-2022.csv",
+    "vivos23": "https://dados.fortaleza.ce.gov.br/dataset/af6e1ab3-7978-4c21-9f8f-defea2158cd6/resource/d3a81220-639d-4dc7-bd91-2e8171873a55/download/dados-de-nascidos-vivos-2023.csv",
+    "vivos24": "https://dados.fortaleza.ce.gov.br/dataset/af6e1ab3-7978-4c21-9f8f-defea2158cd6/resource/a19af922-15c8-43e7-8a8b-3fbe6532eeac/download/dados-de-nascidos-vivos-2024-jun.csv"
 }
 
 dict_mortos = {
-    "mortos20": "https://docs.google.com/spreadsheets/d/1OtFJws2CXaS4240uDJhtawwhr8hQFZiuqOaN3qdDTJ8/gviz/tq?tqx=out:csv&gid=658561597",
-    "mortos21": "https://docs.google.com/spreadsheets/d/1Lcg6ZvxW25jfiIFxDkeNsaPeCUYJwmuGO69I84-Yy5c/gviz/tq?tqx=out:csv&gid=1654654312",
-    "mortos22": "https://docs.google.com/spreadsheets/d/10Ek1M6PCkVMf39YC55Qy9aNXjZhotVui5DgXqzg5ivM/gviz/tq?tqx=out:csv&gid=709207175",
-    "mortos23": "https://docs.google.com/spreadsheets/d/130z1cbT73SXnWGXSdW1QFpyX_-ESD_iismrSz4y4tGk/gviz/tq?tqx=out:csv&gid=1910813370",
-    "mortos24": "https://docs.google.com/spreadsheets/d/11libakcuJNOnU3nm81xoRXXFn2oWHA-9z-rbur_ACNk/gviz/tq?tqx=out:csv&gid=708934713"
+    "mortos20": "https://dados.fortaleza.ce.gov.br/dataset/af6e1ab3-7978-4c21-9f8f-defea2158cd6/resource/e121a844-c95a-49ad-8c31-ecfcdd6ef32b/download/dados-dos-obitos.csv",
+    "mortos21": "https://dados.fortaleza.ce.gov.br/dataset/af6e1ab3-7978-4c21-9f8f-defea2158cd6/resource/1a6a178f-90f8-4920-aadc-0b4c8ec652eb/download/dados-dos-obitos-2021.csv",
+    "mortos22": "https://dados.fortaleza.ce.gov.br/dataset/af6e1ab3-7978-4c21-9f8f-defea2158cd6/resource/65adaf6d-a3b3-4029-902d-9975772ea693/download/dados-dos-obitos-2022.csv",
+    "mortos23": "https://dados.fortaleza.ce.gov.br/dataset/af6e1ab3-7978-4c21-9f8f-defea2158cd6/resource/c7ea26cf-af88-4816-8e66-512e7d6c3817/download/dados-dos-obitos-2023.csv",
+    "mortos24": "https://dados.fortaleza.ce.gov.br/dataset/af6e1ab3-7978-4c21-9f8f-defea2158cd6/resource/9a6b5532-c5a1-4ac3-a5bb-a94b713ae6ed/download/dados-dos-obitos-2024-jun.csv"
 }
 
 
